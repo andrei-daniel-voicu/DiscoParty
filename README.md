@@ -146,18 +146,6 @@ To run a certain lab:
     // etc.
     ```
 
-
-## :book: Documentation
-
-All user and developer documentation can be found in the `docs` directory.
-
-
-## :wrench: Contributing
-
-See the [CONTRIBUTING.md](CONTRIBUTING.md) file for more info.
-A future roadmap is ***TBD***.
-
-
 ## :page_facing_up: License
 
 This project is available under the [MIT][ref-mit] license; see [LICENSE.md](LICENSE.md) for the full license text.
