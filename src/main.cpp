@@ -4,18 +4,8 @@
 #include "core/engine.h"
 #include "components/simple_scene.h"
 
-#if defined(WITH_LAB_M1)
-#   include "lab_m1/lab_list.h"
-#endif
 
-#if defined(WITH_LAB_M2)
-#   include "lab_m2/lab_list.h"
-#endif
-
-#if defined(WITH_LAB_EXTRA)
-#   include "lab_extra/lab_list.h"
-#endif
-
+#include "lab_m1/tema3/tema3.h"
 
 #ifdef _WIN32
 PREFER_DISCRETE_GPU_NVIDIA;
