@@ -2,8 +2,9 @@
 
 ## :sparkles: Introduction
 
-This project is the third student assigment for the Computer Grahics Elements course. It is a simple game that incorporates different
-lighting and texturing techniques.
+This project is the third student assignment  for the Computer Graphics Elements course. It is a simple game that incorporates different
+lighting and texturing techniques. The project is built upon the following framework:
+
 
 ## :page_facing_up: License
 
