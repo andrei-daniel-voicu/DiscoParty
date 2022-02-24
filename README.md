@@ -1,10 +1,19 @@
 # Disco Party
 
-## :sparkles: Introduction
+## :sparkles: Description
 
 This project is the third student assignment  for the Computer Graphics Elements course. It is a simple game that incorporates different
 lighting and texturing techniques. The project is built upon the following framework:
 
+  ### Features
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+
+## :gear: Building
+Available [here](https://github.com/UPB-Graphics/gfx-framework).
 
 ## :page_facing_up: License
 
