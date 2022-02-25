@@ -1,6 +1,6 @@
 # Disco Party
 
-## :sparkles: Description
+## Description
 ![](./assets/screenshots/all_lights.png)
 
 This project is the third student assignment  for the Computer Graphics Elements course. It is a simple game that incorporates different
