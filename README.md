@@ -1,17 +1,16 @@
 # Disco Party
 
-## Description
 ![](./assets/screenshots/all_lights.png)
 
 This project is the third student assignment  for the Computer Graphics Elements course. It is a simple game that incorporates different
 lighting and texturing techniques. The project is built upon the following framework:
 
-  ### :trophy: Features
-  &nbsp;&nbsp; :small_blue_diamond: fsdf  
-  &nbsp;&nbsp; :small_blue_diamond: gdg  
-  &nbsp;&nbsp; :small_blue_diamond: rgeg  
-  &nbsp;&nbsp; :small_blue_diamond: sgs   
-  &nbsp;&nbsp; :small_blue_diamond: afasgw    
+## :trophy: Features
+  &nbsp;&nbsp; :small_orange_diamond: fsdf  
+  &nbsp;&nbsp; :small_orange_diamond: gdg  
+  &nbsp;&nbsp; :small_orange_diamond: rgeg  
+  &nbsp;&nbsp; :small_orange_diamond: sgs   
+  &nbsp;&nbsp; :small_orange_diamond: afasgw    
 
 ## :gear: Building
 Available [here](https://github.com/UPB-Graphics/gfx-framework).
