@@ -1,6 +1,6 @@
 # Disco Party
 
-![](./assets/screenshots/all_lights.png)
+![](./assets/screenshots/all_lights_logo.png)
 
 This project is the third student assignment  for the Computer Graphics Elements course. It is a simple game that incorporates different
 lighting and texturing techniques. The project is built upon the following framework:
