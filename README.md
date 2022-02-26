@@ -14,7 +14,7 @@ lighting and texturing techniques. The project is built upon the following frame
   
 ## :white_check_mark: Prerequisites
 
-## :gear: Building
+## :hammer: Building
 Available [here](https://github.com/UPB-Graphics/gfx-framework).
 
 ## :running: Running
