@@ -1,17 +1,18 @@
-<!--- 
+<!--- insert project logo here -->
 ![](./assets/screenshots/all_lights_logo.png)
 
 <!--- general description of the project -->
 This project is the third student assignment  for the Computer Graphics Elements course. It is a simple game that incorporates different
 lighting and texturing techniques. The project is built upon the following framework:
 
-## <img src="https://material-icons.github.io/material-icons/svg/push_pin/outline.svg" width="30"> Features
-  &nbsp;&nbsp; ![](https://material-icons.github.io/material-icons/svg/push_pin/outline.svg | width="24") fsdf  
+## :trophy: Features
+  &nbsp;&nbsp; :small_orange_diamond: fsdf  
   &nbsp;&nbsp; :small_orange_diamond: gdg  
   &nbsp;&nbsp; :small_orange_diamond: rgeg  
   &nbsp;&nbsp; :small_orange_diamond: sgs   
   &nbsp;&nbsp; :small_orange_diamond: afasgw    
-## Prerequisites
+  
+## :white_check_mark: Prerequisites
 
 ## :gear: Building
 Available [here](https://github.com/UPB-Graphics/gfx-framework).
