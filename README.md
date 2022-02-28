@@ -20,7 +20,7 @@ Do not run CMake directly from the top-level folder (meaning, do not do this: `c
 
 1.  `mkdir build`
 2.  `cd build`
-3.  `cmake .. -DWITH_LAB_M1=0 -DWITH_LAB_M2=1`
+3.  `cmake .. -DWITH_LAB_M1=1 -DWITH_LAB_M2=0 -DWITH_LAB_EXTRA=0`
 4.  Build the project:
     -   Windows, one of the following:
         -   `cmake --build .`
@@ -32,10 +32,17 @@ Do not run CMake directly from the top-level folder (meaning, do not do this: `c
 That's it! :tada:
 
 ## :running: Running
-Available [here](https://github.com/UPB-Graphics/gfx-framework).
+You can run the project from an IDE, as well as standalone, from anywhere on disk. For example:
+
+-   Windows, one of the following:
+    -   `.\bin\Debug\GFXFramework`
+    -   or just open the `.sln` file in Visual Studio, then press `F5` to run it
+
+-   Linux and macOS:
+    -   `./bin/Debug/GFXFramework`
 
 ## :page_facing_up: License
-This project is available under the [MIT][ref-mit] license; see [LICENSE.md](LICENSE.md) for the full license text.
+This project is available under the [MIT][ref-mit] license; see [LICENSE](LICENSE) for the full license text.
 This project also includes external libraries that are available under a variety of licenses; see [LEGAL.txt](LEGAL.txt)
 for the full license texts and legal notices.
 
