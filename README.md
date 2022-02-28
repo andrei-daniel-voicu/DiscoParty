@@ -13,6 +13,65 @@ lighting** and **texturing techniques**. The project is build upon the following
   &nbsp;&nbsp; :small_orange_diamond: Disco Ball spherical environment mapping   
   
 ## :white_check_mark: Prerequisites
+This section describes ***what you need to do and install*** before actually building the code.
+
+
+### Install a compiler
+
+The compiler requirements are listed below. I strongly recommend to always use the latest compiler versions.
+
+-   Minimum:
+    -   Windows: Visual Studio 2015 Update 3 with `Programming Languages -> Visual C++` checked when installing
+    -   Linux: `g++` version 5
+    -   macOS: `clang++` version 4
+
+-   Recommended:
+    -   Windows: Visual Studio 2022 with `Workloads -> Desktop development with C++` checked when installing
+    -   Linux: `g++` latest
+    -   macOS: `clang++` latest, by doing one of the following:
+        -   for LLVM/Clang: install [`brew`](https://brew.sh/) then run `brew install llvm`
+        -   for Apple Clang: install XCode
+
+
+### Check your graphics capabilities
+
+This project requires OpenGL version ***3.3 core profile, or newer*** for the simpler parts, and version ***4.3 core profile, or newer***  for the more advanced parts. If you have a computer manufactured within the last few years, you should be safe. ***If you're not sure,*** follow the steps in [this guide](docs/user/checking_capabilities.md) to find out.
+
+
+### Install the third-party libraries
+
+There are some open-source libraries that this project uses. To install them:
+
+-   Windows: you don't need to do anything - all necessary libraries are already provided with the code
+
+-   Linux: depending on your distribution, run one of the following scripts as superuser:
+    -   Debian (Ubuntu): `./tools/deps-ubuntu.sh`
+    -   Red Hat (Fedora): `./tools/deps-fedora.sh`
+    -   Arch (x86_64): `./tools/deps-arch.sh`
+
+-   macOS: install [`brew`](https://brew.sh/) then run `./tools/deps-macos.sh`
+
+
+### Install the build tools
+
+This project requires CMake ***3.16 or newer,*** however, as with the compilers, I strongly recommend that you use the latest version. To install it, follow these steps:
+
+-   Windows:
+    1.  go to the [CMake downloads page][ref-cmake-dl]
+    2.  download the latest version of the file called `cmake-<VERSION>-windows-x86_64.msi`
+    3.  install it
+
+-   Linux:
+    1.  use your package manager to install `cmake`
+    2.  check the version using `cmake --version`
+    3.  depending on the version:
+        -   if it's the minimum required (see above), you're all set
+        -   otherwise, run `./tools/install-cmake.sh && . ~/.profile` in a terminal
+
+-   macOS:
+    1.  run `brew install cmake`
+
+After installation, run `cmake --version` (again) to check that it's in your `PATH` environment variable. This should happen automatically, but if it didn't, just add it manually. 
 
 ## :hammer: Building
 Open a terminal and go into the root folder of the project, which contains the top-level `CMakeLists.txt` file.
