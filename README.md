@@ -2,7 +2,7 @@
 ![](./assets/screenshots/all_lights_logo.png)
 
 <!--- general description of the project -->
-This project is the third student assignment for the Computer Graphics Elements course. It is a simple game that incorporates **different
+This project is the third student assignment for the Computer Graphics course. It is a simple game that incorporates **different
 lighting** and **texturing techniques**. The project is build upon the following [framework](https://github.com/UPB-Graphics/gfx-framework) and it follows the following assignment [specifications](https://ocw.cs.pub.ro/courses/egc/teme/2021/03) with some **additional twists**.
 
 ## :trophy: Features
